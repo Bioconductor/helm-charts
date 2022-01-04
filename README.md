@@ -1,6 +1,24 @@
 # Helm Repository
 A repository of *packaged* Helm charts for the [Bioconductor](https://bioconductor.org) project.
 
+## Using charts from this repository
+In order to use charts from this repository, you must first add the repository using:
+
+```bash
+helm repo add bioc https://github.com/Bioconductor/helm-charts/raw/main
+# helm repo update
+```
+
+You can then install any chart from the repository using the chart's name:
+```bash
+helm install myrelease bioc/bioconductor
+```
+
+See each chart's source repository for more details and configuration options.
+
+
+## Updating chart manually
+
 To update charts manually, place a copy of the packaged chart(s) into
 the `charts` folder and (re)build `index.yaml` by running the following command
 in this repo's root:
@@ -22,6 +40,7 @@ git push
 
 Note:
 - When creating a fork or branch, the index needs to be rebuilt
+
 
 
 # Auto-Packaging
