@@ -3,7 +3,27 @@ entries:
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-04T15:51:38.434566764Z"
+    created: "2022-01-04T19:24:20.305525576Z"
+    description: A Helm chart for RStudio on Kubernetes
+    digest: c3846362e01f6cd716e5d91bba6b54f214af7fa67be1dcb0ac3d98f7c8d7dc2f
+    name: rstudio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/bioconductor/helm-charts/main/charts/rstudio-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-04T19:24:20.305077472Z"
+    description: A Helm chart for RStudio on Kubernetes
+    digest: f38366354cf27e0a3e671a6869ea8337518815ba23e314d878c0692275f83651
+    name: rstudio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/bioconductor/helm-charts/main/charts/rstudio-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-04T19:24:20.304587068Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 2a49bf27473a18160c33f1bd243e6d41cc88846cbe1893053532e4733719fe67
     name: rstudio
@@ -11,4 +31,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/bioconductor/helm-charts/main/charts/rstudio-0.4.1.tgz
     version: 0.4.1
-generated: "2022-01-04T15:51:38.430197252Z"
+generated: "2022-01-04T19:24:20.303421559Z"
