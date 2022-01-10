@@ -49,4 +49,4 @@ The following charts get automatically versioned, packaged, and pushed into
 this repository (on all branches) on each merged Pull Request in the chart's
 source repository:
 
-RStudio-Helm: https://github.com/bioconductor/rstudio-helm
+Bioconductor-Helm: https://github.com/bioconductor/bioconductor-helm
