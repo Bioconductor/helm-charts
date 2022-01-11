@@ -5,7 +5,7 @@ A repository of *packaged* Helm charts for the [Bioconductor](https://bioconduct
 In order to use charts from this repository, you must first add the repository using:
 
 ```bash
-helm repo add bioc https://github.com/Bioconductor/helm-charts/raw/main
+helm repo add bioc https://github.com/Bioconductor/helm-charts/raw/devel
 # helm repo update
 ```
 
@@ -31,7 +31,7 @@ Example
 git clone https://github.com/Bioconductor/helm-charts
 cp myawesomechart-7.7.7.tgz helm-charts/charts/myawesomechart-7.7.7.tgz
 cd helm-charts
-helm repo index . --url https://github.com/Bioconductor/helm-charts/raw/main
+helm repo index . --url https://github.com/Bioconductor/helm-charts/raw/devel
 # helm repo index . --url https://github.com/$MY_FORK_NAME/helm-charts/raw/$MY_BRANCH_NAME
 git add .
 git commit -m "Added my awesome chart v7.7.7 manually"
