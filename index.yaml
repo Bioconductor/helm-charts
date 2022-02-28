@@ -3,9 +3,9 @@ entries:
   bioconductor:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:25:00.236401576Z"
+    created: "2022-02-28T01:54:06.662342808Z"
     description: A Helm chart for Bioconductor RStudio on Kubernetes
-    digest: 9929627d3445a7c9ac63ce27b13466b3da96f3c4e0ac566a29b28bb26d81e5f1
+    digest: 0e1b6888a5319cdb9fe661d9a7bdd63bc994b8f1599b79969da94c4eed9c2d6d
     name: bioconductor
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:25:00.235730668Z"
+    created: "2022-02-28T01:54:06.661478457Z"
     description: A Helm chart for Bioconductor RStudio on Kubernetes
     digest: 4682b46962f9ccc7a335f93310bc416bd2f57e62ed2c56514ba9645a6f5b94e6
     name: bioconductor
@@ -24,7 +24,7 @@ entries:
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:25:00.238043296Z"
+    created: "2022-02-28T01:54:06.664367827Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: c3846362e01f6cd716e5d91bba6b54f214af7fa67be1dcb0ac3d98f7c8d7dc2f
     name: rstudio
@@ -34,7 +34,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:25:00.23749769Z"
+    created: "2022-02-28T01:54:06.663758191Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: f38366354cf27e0a3e671a6869ea8337518815ba23e314d878c0692275f83651
     name: rstudio
@@ -44,7 +44,7 @@ entries:
     version: 0.4.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:25:00.236950183Z"
+    created: "2022-02-28T01:54:06.663022648Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 2a49bf27473a18160c33f1bd243e6d41cc88846cbe1893053532e4733719fe67
     name: rstudio
@@ -52,4 +52,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/bioconductor/helm-charts/devel/charts/rstudio-0.4.1.tgz
     version: 0.4.1
-generated: "2022-02-28T01:25:00.234591854Z"
+generated: "2022-02-28T01:54:06.660314388Z"
