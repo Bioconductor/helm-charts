@@ -3,7 +3,17 @@ entries:
   bioconductor:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:54:06.662342808Z"
+    created: "2022-03-01T20:57:27.138641373Z"
+    description: A Helm chart for Bioconductor RStudio on Kubernetes
+    digest: 7a813dcf71cc4fac55c4d926dad5fabf8589b60321fd6236b2632c7b00a04aab
+    name: bioconductor
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/bioconductor/helm-charts/devel/charts/bioconductor-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-01T20:57:27.137838464Z"
     description: A Helm chart for Bioconductor RStudio on Kubernetes
     digest: 0e1b6888a5319cdb9fe661d9a7bdd63bc994b8f1599b79969da94c4eed9c2d6d
     name: bioconductor
@@ -13,7 +23,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:54:06.661478457Z"
+    created: "2022-03-01T20:57:27.137185557Z"
     description: A Helm chart for Bioconductor RStudio on Kubernetes
     digest: 4682b46962f9ccc7a335f93310bc416bd2f57e62ed2c56514ba9645a6f5b94e6
     name: bioconductor
@@ -24,7 +34,7 @@ entries:
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:54:06.664367827Z"
+    created: "2022-03-01T20:57:27.140357892Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: c3846362e01f6cd716e5d91bba6b54f214af7fa67be1dcb0ac3d98f7c8d7dc2f
     name: rstudio
@@ -34,7 +44,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:54:06.663758191Z"
+    created: "2022-03-01T20:57:27.139835286Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: f38366354cf27e0a3e671a6869ea8337518815ba23e314d878c0692275f83651
     name: rstudio
@@ -44,7 +54,7 @@ entries:
     version: 0.4.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-28T01:54:06.663022648Z"
+    created: "2022-03-01T20:57:27.13924348Z"
     description: A Helm chart for RStudio on Kubernetes
     digest: 2a49bf27473a18160c33f1bd243e6d41cc88846cbe1893053532e4733719fe67
     name: rstudio
@@ -52,4 +62,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/bioconductor/helm-charts/devel/charts/rstudio-0.4.1.tgz
     version: 0.4.1
-generated: "2022-02-28T01:54:06.660314388Z"
+generated: "2022-03-01T20:57:27.136145046Z"
